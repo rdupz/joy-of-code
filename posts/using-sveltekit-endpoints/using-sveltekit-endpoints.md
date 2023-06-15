@@ -78,7 +78,7 @@ If you want to load the data before rendering the page you have to use a **page 
 
 {% img src="ssr.webp" alt="Server-side rendering" %}
 
-You can use use `+page.server.ts` if you need access to the
+You can use `+page.server.ts` if you need access to the
 file system, database, or have secrets.
 
 ```ts:src/routes/+page.ts showLineNumbers
